@@ -18,7 +18,7 @@ Prerequisites:
 Start minishift:
 
     $ minishift start
-    -- Starting local OpenShift cluster using 'kvm' hypervisor...
+    -- Starting local OpenShift cluster using 'virtualbox' hypervisor...
     ...
     OpenShift server started.
     The server is accessible via web console at:
@@ -60,9 +60,11 @@ Web:
 
 * Simply point your browser to the ip address listed when you start minishift. If you forget what that is, you can run the command: 
 
-    $ minishift ip
+    `$ minishift ip` 
+
+    `192.168.99.100`
     
-    192.168.99.100
+ * Use port *8443* by defualt
     
  Screenshot of web UI:
  
@@ -71,6 +73,8 @@ Web:
  Initial default project:
  
  ![defualt screen](img/openshift_projects_default.png "Defualt project")
+ 
+ 
  
  
  
