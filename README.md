@@ -13,7 +13,7 @@ Prerequisites:
 * [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Install Homebrew Cask](https://caskroom.github.io)
 * [install Minishift](https://docs.openshift.org/latest/minishift/getting-started/installing.html)
-* [Install OC](link)(OpenShift Commandline Utility)
+* [Install oc CLI (Openshift Origin Client Tools)](https://github.com/openshift/origin/releases/) 
 
 Start minishift:
 
