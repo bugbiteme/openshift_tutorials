@@ -1,9 +1,11 @@
 # OpenShift Tutorials
 Landing page for OpenShift Tutorials by Leon Levy
 
+# Lesson 1 - Install and run Minishift
+
 # Prerequisites
 
-Before we get started, you need to get minishift up and running on your workstation. Minishift is a lightweight, single-node instance of OpenShift, which can easily be deployed on a laptop, workstation, or wherever it is you want to run these tutorials.
+Before we get started on any of the following lessons, you need to get minishift up and running on your workstation. Minishift is a lightweight, single-node instance of OpenShift, which can easily be deployed on a laptop, workstation, or wherever it is you want to run these tutorials.
 
 I will be running the excercises from my MacBook
 
@@ -12,6 +14,8 @@ Prerequisites:
 
 * [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Install Homebrew Cask](https://caskroom.github.io)
+* [Install git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [Git Hub account](http://github.com)
 * [install Minishift](https://docs.openshift.org/latest/minishift/getting-started/installing.html)
 * [Install oc CLI (Openshift Origin Client Tools)](https://github.com/openshift/origin/releases/) 
 
@@ -73,6 +77,10 @@ Web:
  Initial default project:
  
  ![defualt screen](img/openshift_projects_default.png "Defualt project")
+ 
+ If everything works, then good job! Let's move on to the next tutorial and deploy our first application!!!
+ 
+ [Lesson 2 - Deploying your first application](placeholder.com)
  
  
  
