@@ -9,9 +9,11 @@ I will be running the excercises from my MacBook
 
 # Getting Minishift running on your macbook
 Prerequisites: 
+
 * [Install VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Install Homebrew Cask](https://caskroom.github.io)
 * [install Minishift](https://docs.openshift.org/latest/minishift/getting-started/installing.html)
+* [Install OC](link)(OpenShift Commandline Utility)
 
 Start minishift:
 
@@ -55,7 +57,25 @@ CLI:
 my-project is the default new project living in the minishift environment
 
 Web: 
-* Simply point your browser to
+
+* Simply point your browser to the ip address listed when you start minishift. If you forget what that is, you can run the command: 
+
+    $ minishift ip
+    
+    192.168.99.100
+    
+ Screenshot of web UI:
+ 
+ ![Login screen](img/openshift_login.png "Openshift Login")
+ 
+ Initial default project:
+ 
+ ![defualt screen](img/openshift_projects_default.png "Defualt project")
+ 
+ 
+ 
+ 
+
 
 
 
