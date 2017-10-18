@@ -80,7 +80,7 @@ Web:
  
  If everything works, then good job! Let's move on to the next tutorial and deploy our first application!!!
  
- [Lesson 2 - Deploying your first application](placeholder.com)
+ [Lesson 2 - Deploying your first application](https://github.com/bugbiteme/nodejs-hello-world)
  
  
  
